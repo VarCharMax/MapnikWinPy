@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\dotnet\MapnikWinPy\CMakeFiles\2296a8d79d0725abbc2aa2bc03512e10\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C760479-730C-31C4-8282-5D978D4F4162}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

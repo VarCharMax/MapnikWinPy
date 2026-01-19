@@ -52,3 +52,22 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# CMake generated files
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+CMakeUserPresets.json
+
+# IDE specific files (optional, but recommended)
+.idea/         # CLion
+.vscode/       # VS Code
+.vs/           # Visual Studio
+/out/          # Visual Studio build directory
+/cmake-build-*/ # CLion build directories
