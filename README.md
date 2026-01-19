@@ -10,4 +10,4 @@ The `CMAKE` command I used to create the project (using bash syntax) is:
 
 `cmake -DPYTHON_EXECUTABLE=$(python3 -c "import sys; print(sys.executable)") -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake -DPYBIND11_PYTHON_VERSION=3.12`
 
-I specified Python 3.12 because that seems to the highest version compatible with mapnik (looking at the vcpkg build output) (pythonnet supports 3.13).
+I specified Python 3.12 because that seems to the highest version compatible with mapnik (looking at the vcpkg build output - pythonnet supports 3.13). However, the CMAKE command reported that it ignored the `-DPYBIND11_PYTHON_VERSION` flag.
