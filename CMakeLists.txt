@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15...4.0)
-project(example LANGUAGES CXX)
+project(mapnikpywin LANGUAGES CXX)
 
 find_package(pybind11 REQUIRED)
 find_package(Python REQUIRED COMPONENTS Interpreter Development)
