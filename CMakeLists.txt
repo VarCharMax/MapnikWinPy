@@ -7,6 +7,8 @@ find_package(mapnik CONFIG REQUIRED)
 pybind11_add_module(mapnikpywin MODULE main.cpp)
 target_link_libraries(mapnikpywin PRIVATE mapnik::mapnik mapnik::json mapnik::wkt)
 
+# mapnik_find_plugin_dir(MAPNIK_PLUGIN_DIR)
+
 pybind11_extension(mapnikpywin)
 if(NOT MSVC AND NOT ${CMAKE_BUILD_TYPE} MATCHES Debug|RelWithDebInfo)
     # Strip unnecessary sections of the binary on Linux/macOS
